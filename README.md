@@ -1,16 +1,45 @@
-# working_on_card
+📱 Flutter Card Design App — InstaCard Slider Showcase ✨
 
-A new Flutter project.
+Flutter Card Design App demonstrates a customizable card widget with an integrated image carousel slider and interactive icons—ideal for social feeds or product showcases.
 
-## Getting Started
+🌟 Project Highlights
 
-This project is a starting point for a Flutter application.
+📸 Image Carousel
 
-A few resources to get you started if this is your first Flutter project:
+Swipeable slider using carousel_slider package.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Auto-play, enlarge-center-page, and adjustable viewport fraction.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clip-rounded corners for seamless visuals.
+
+❤️ Interactive Icon Row
+
+IconButtons for favorite, comment, share, and bookmark actions.
+
+Responsive layout with Spacer() to align icons.
+
+Easily replace icons or add custom callbacks.
+
+🔧 Reusable Card Component
+
+InstaCard built as a standalone StatelessWidget.
+
+Configurable image list and carousel options.
+
+Rounded Card with elevation and margin for depth.
+
+🎨 Styling & Theming
+
+MaterialApp setup with light blue AppBar and bold title.
+
+Scalable design: adjust CarouselOptions and icon sizes.
+
+🧰 Tech Stack
+
+    Category              Tools & Libraries
+
+    Framework              Flutter, Dart
+
+    Carousel Slider        carousel_slider
+
+    UI Components          Material (Card, IconButton)
